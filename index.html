@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Вторая ссылка</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">﻿
+</head>
+
+
+<body>
+
+	<!--Главный контейнер сайти /// заканчивается перед </body>-->
+	<div class="maincontainer">
+
+		<!--Левый блок меню /// конец 24-строка-->
+		<div class="firstblock">
+			<div class="button1"><a><p>Первая ссылка</p></a></div>
+			<div class="button1"><a><p>Вторая ссылка (активная)</p></a></div>
+			<div class="button1"><a><p>Третья ссылка</p></a></div>
+			<div class="button2"><a><p>Личный кабинет</p></a></div>
+			<div class="button2"><a><p>Выйти</p></a></div>
+		</div>
+		<!--Конец левого блока меню-->
+
+		<!--Правый блок // конец 110 строка-->
+		<div class="secondblock">
+
+			<!--Выпадающее меню для 320px-->
+			<div class="menu320">
+				<ul>
+					<li class="menulist"><img src="icon/smalform/menu.png" alt="menu">
+						<ul class="menudrob">
+							<li><img src="icon/smalform/link.png" alt="link">Первая ссылка</li>
+							<li><img src="icon/smalform/link.png" alt="link">Вторая ссылка</li>
+							<li><img src="icon/smalform/link.png" alt="link">Третья ссылка</li>
+							<li><img src="icon/smalform/cabi.png" alt="lk">Личный кабинет</li>
+							<li><img src="icon/smalform/exit.png" alt="exit">Выход</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--Конец выпадающего меню-->
+
+
+			<header>
+				<h1>Заголовок страницы</h1>
+				<p>В отличие от пылевого и ионного хвостов, направление поступает в лимногляциальный часовой угол</p>
+			</header>
+
+			<!--Меню для адаптивности 480 и 720px-->
+			<div class="imagediv">
+				<div class="iii"><img src="icon/link.png" alt="link"></div>
+				<div class="iii"><img src="icon/link.png" alt="link"></div>
+				<div class="iii"><img src="icon/link.png" alt="link"></div>
+				<div class="iii"><img src="icon/cabi.png" alt="lk"></div>
+				<div class="iii"><img src="icon/exit.png" alt="exit"></div>
+			</div>
+			<!--Конец меню 480 и 720px-->
+
+			<!--Блок информации по оплате-->
+			<div class="maincontent">
+				<p class="firstzag">Информация по оплате:</p><br>
+				<p>Номер счета:<span>2323 555 666</span></p>
+				<p>Сумма платежа:<span class="span1">200 руб</span></p><br>
+				<h2>Данные банковской карты</h2>
+
+				
+				<div class="card">
+					<div class="cardfront">
+						<br>
+						<form id="forma">
+							<div class="textinform">Номер карты</div>
+							<input type="text" id="cardNumber1" placeholder="9999" class="formtext firsttext typepol" id="cardNumber1">
+							<input type="text" id="cardNumber2" placeholder="9999" class="formtext typepol">
+							<input type="text" id="cardNumber3" placeholder="9999" class="formtext typepol">
+							<input type="text" id="cardNumber4" placeholder="9999" class="formtext typepol">
+							<div class="textinform">Срок действия</div>
+							<select class="firsttext sel typepol" id="mouth"></select>
+							<select class="sel typepol" id="year"></select>
+							<input type="text" id="idhuman" placeholder="Держатель карты" class="human firsttext typepol">
+						</div>
+						<div class="cardback">
+							<div class="linecard"> </div>
+							<div class="backcardot">Код CVV2/CVC2</div>
+							<input type="text" id="cvv" maxlength="3" class="backcardot cvv typepol" placeholder="999" name="CVV">
+
+						</div>
+					</div>
+
+					<div class="knopka">
+						<input type="button" onclick="valid(document.getElementById('forma'))"  class="buttonin" value="Оплатить">
+					</div>
+
+				</form>
+
+			</div>
+			<!--Конец блока информации об оплате-->
+
+			<footer>
+				<div class="fotcontent">
+					<p>Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.</p><br>
+					<p>Выклинивание абсолютно аккумулирует твердый pадиотелескоп Максвелла.</p><br>
+					<p>Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный объект.</p><br>
+					<p>Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород, но и проявлениями долее поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</p>
+				</div>
+			</footer>
+
+		</div>
+		<!--Конец правого блока меню-->
+	</div>
+	<!--Конец главного контейнера-->
+	<script type="text/javascript" src="js/script.js "></script>
+</body>
+</html>
